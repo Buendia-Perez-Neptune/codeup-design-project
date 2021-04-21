@@ -150,7 +150,11 @@
         font-size: 15px;
         margin: 3px;
     }
-
+    /* trying to see how to have no linebreak show in xs screen but do display in the small screen,
+     */
+.linebreak {
+    display: none;
+}
 
 @media screen and (min-width: 576px) {
 
@@ -160,8 +164,24 @@
         flex-direction: row;
         justify-content: center;
     }
-
-
+    /*made the two containers here a row like we did in the other h1/3 headers and edited text size so it fits. */
+    .header2, .text1, .text2 {
+        display: flex;
+        flex-direction: row;
+        font-size: 28px;
+    }
+    /*added margin left to eliminate the margin space between the two different text1/text2 since theyre different containers*/
+.text2 {
+    margin-left: 5px;
+}
+/* eliminated the padding top on top of selected work since it was pushed down, not sure why it had to be under this name instead of .select*/
+.row.select {
+    padding-top: 0;
+}
+/* this can make the linebreak not display in the small screen  but will display in the xs screen but not vice versa
+.linebreak {*/
+/*    display: none;*/
+/*}*/
 
 
 }
