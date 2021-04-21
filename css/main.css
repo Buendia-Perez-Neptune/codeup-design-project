@@ -1,187 +1,219 @@
 
+body {
+    background-color: rgb(240 240 240);
 
-    body {
-        background-color: rgb(240 240 240);
-
-    }
-
-    .jumbotron {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 4em;
-        margin: em 0 3em 0;
-        font-family: 'Anton', sans-seriff;
-    }
-
-
-    img {
-        height: 105px;
-        width: 105px;
-    }
-
-
-    .header, .featured, .select {
-        display: flex;
-        justify-content: center;
-        font-family: 'Abel", sans-serif';
-    }
-
-    .navbar {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        padding-bottom: 2em;
-    }
-
-    .navbar li {
-        padding: 0 5px;
-
-    }
-
-    .header2 {
-        display: flex;
-        flex-direction: column;
-        font-weight: bold;
-        justify-content: center;
-
-    }
-
-    .text1 {
-        font-size: 32px;
-        margin-left: 1.5em;
-    }
-
-    .text2 {
-        font-size: 32px;
-        margin-left: 1em;
-    }
-
-    .location {
-        display: flex;
-        justify-content: center;
-        padding: 1em;
-        margin: auto;
-        font-size: 28px;
-    }
-
-    h1, h3 {
-        font-weight: bold;
-    }
-
-    .circle {
-        display: flex;
-        background: lightblue;
-        border-radius: 50%;
-        width: 105px;
-        height: 105px;
-        border: white solid .5em;
-        justify-content: center;
-        align-items: center;
-        margin: 5px;
-    }
-
-    .red {
-        background: #E6563B;
-        color: white;
-    }
-
-    .orange {
-        background: #EB9D3A;
-        color: white;
-    }
-
-    .green {
-        background: #7CB06C;
-        color: white;
-    }
-
-    .blue {
-        background: #00ABA9;
-        color: white;
-    }
-
-    .dots circle {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .icons {
-        display: flex;
-        flex-direction: row;
-        border-radius: 50%;
-        width: 18px;
-        height: 18px;
-
-        justify-content: center;
-        align-items: center;
-    }
-
-    .ipad {
-        border: 1em solid #E6E6E6;
-    }
-
-    .footer {
-        justify-content: center;
-
-        padding: 0 1.5em;
-    }
-
-    .select {
-        padding: 4em 0 1em 0;
-    }
-
-    .row {
-        margin: 0;
-    }
-
-    .ipad {
-        width: 300px;
-        height: 175px;
-        display: flex;
-        margin: auto;
-        border: 2px solid grey;
-    }
-
-    .icons {
-        color: black;
-        font-weight: bold;
-        font-size: 15px;
-        margin: 3px;
-    }
-    /* trying to see how to have no linebreak show in xs screen but do display in the small screen,
-     */
-.linebreak {
-    display: none;
 }
+
+.jumbotron {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4em;
+    margin: 2em 0 3em 0;
+    font-family: 'Anton', sans-seriff;
+}
+
+
+img {
+    height: 105px;
+    width: 105px;
+}
+
+
+.header, .featured, .select {
+    display: flex;
+    justify-content: center;
+    font-family: 'Abel", sans-serif';
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 2em;
+}
+
+.navbar li {
+    padding: 0 5px;
+
+}
+
+.header2 {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    justify-content: center;
+
+}
+
+.text1 {
+    font-size: 32px;
+    margin-left: 1.5em;
+}
+
+.text2 {
+    font-size: 32px;
+    margin-left: 1em;
+}
+
+.location {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    margin: auto;
+    font-size: 28px;
+}
+
+h1, h3 {
+    font-weight: bold;
+}
+
+.circle {
+    display: flex;
+    background: lightblue;
+    border-radius: 50%;
+    width: 105px;
+    height: 105px;
+    border: white solid .5em;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.red {
+    background: #E6563B;
+    color: white;
+}
+
+.orange {
+    background: #EB9D3A;
+    color: white;
+}
+
+.green {
+    background: #7CB06C;
+    color: white;
+}
+
+.blue {
+    background: #00ABA9;
+    color: white;
+}
+
+.dots {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 2em;
+}
+.icons {
+    display: flex;
+    flex-direction: row;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.ipad {
+    border: 1em solid #E6E6E6;
+}
+
+.footer {
+    justify-content: center;
+
+    padding: 0 1.5em;
+}
+
+.select {
+    padding: 4em 0 1em 0;
+}
+
+.row {
+    margin: 0;
+}
+
+.ipad {
+    width: 300px;
+    height: 175px;
+    display: flex;
+    margin: auto;
+    border: 2px solid grey;
+}
+
+.icons {
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 3px;
+}
+
+.linebreak {
+    visibility: hidden;
+    position: absolute;
+}
+
+.container-lg {
+    justify-content: center;
+}
+
 
 @media screen and (min-width: 576px) {
 
 
-    .dots{
+    .dots {
         display: flex;
-        flex-direction: row;
         justify-content: center;
     }
-    /*made the two containers here a row like we did in the other h1/3 headers and edited text size so it fits. */
+
     .header2, .text1, .text2 {
         display: flex;
         flex-direction: row;
         font-size: 28px;
     }
-    /*added margin left to eliminate the margin space between the two different text1/text2 since theyre different containers*/
-.text2 {
-    margin-left: 5px;
-}
-/* eliminated the padding top on top of selected work since it was pushed down, not sure why it had to be under this name instead of .select*/
-.row.select {
-    padding-top: 0;
-}
-/* this can make the linebreak not display in the small screen  but will display in the xs screen but not vice versa
-.linebreak {*/
-/*    display: none;*/
-/*}*/
 
+    .text2 {
+        margin-left: 5px;
+    }
 
+    .row.select {
+        padding-top: 0;
+    }
+
+    .linebreak {
+        visibility: visible;
+        position: relative;
+    }
+
+    .bracket .bracket2 {
+    }
+
+    .footer{
+       padding: 0;
+    }
+.jumbotron {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 4em;
+    margin: 2em 0 1em 0;
+    padding: 2em 0;
+    font-family: 'Anton', sans-seriff;
+    font-weight: lighter;
+}
+.header {
+    padding-bottom: 2em;
+}
+.pictures {
+    justify-content: center;
+}
+}
+
+@media screen and (min-width: 768px) {
+.medium {
+
+}
 }
