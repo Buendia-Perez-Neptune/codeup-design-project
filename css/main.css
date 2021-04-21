@@ -1,6 +1,7 @@
 
 body {
     background-color: rgb(240 240 240);
+    margin: 1em;
 
 }
 
@@ -130,6 +131,7 @@ h1, h3 {
 
 .select {
     padding: 4em 0 1em 0;
+    justify-content: center;
 }
 
 .row {
@@ -213,7 +215,17 @@ h1, h3 {
 }
 
 @media screen and (min-width: 768px) {
-.medium {
 
+.select {
+    justify-content: flex-start;
 }
+.card-text {
+    padding:0;
+}
+.tiny {
+    padding:0;
+}
+
+
+
 }
