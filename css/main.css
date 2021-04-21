@@ -225,8 +225,9 @@ h1, h3 {
 .tiny {
     padding:0;
 }
-.selwork {
-
+.fa-twitter{
+    padding: 5px;
+    color: #48a1ec;
 }
 
 }
