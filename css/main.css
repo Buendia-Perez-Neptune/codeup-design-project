@@ -246,8 +246,11 @@ h1, h3 {
         padding: 2em 0;
     }
 }
+<<<<<<< HEAD
 @media screen and (min-width: 992px) {
     body {
         margin: 4em;
     }
 }
+=======
+>>>>>>> d1b2b757e9f91b5e83b8bf770ea045532f052ca5
