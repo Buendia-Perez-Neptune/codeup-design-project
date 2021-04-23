@@ -48,13 +48,14 @@ img {
 }
 
 .text1 {
-    font-size: 32px;
-    margin-left: 1.5em;
+    font-size: 28px;
+
+    justify-content: center;
 }
 
 .text2 {
-    font-size: 32px;
-    margin-left: 1em;
+    font-size: 28px;
+    justify-content: center;
 }
 
 .location {
@@ -110,13 +111,10 @@ h1, h3 {
 }
 .icons {
     display: flex;
-    flex-direction: row;
-    border-radius: 50%;
+
     width: 18px;
     height: 18px;
 
-    justify-content: center;
-    align-items: center;
 }
 
 .ipad {
@@ -150,7 +148,7 @@ h1, h3 {
     color: black;
     font-weight: bold;
     font-size: 15px;
-    margin: 3px;
+
 }
 
 .linebreak {
@@ -219,38 +217,15 @@ h1, h3 {
     .select {
         justify-content: flex-start;
     }
-
     .card-text {
-        padding: 0;
+        padding:0;
     }
-
     .tiny {
-        padding: 0;
+        padding:0;
     }
-
-    .fa-twitter {
+    .fa-twitter{
         padding: 5px;
         color: #48a1ec;
     }
 
-    .picone, .pictwo, .picthree {
-        padding: 0;
-        margin: 0;
-    }
-
-    .adminbar, .nibbler, .howto {
-        padding: 1em 0;
-    }
-
-    .tweet {
-        padding: 2em 0;
-    }
 }
-<<<<<<< HEAD
-@media screen and (min-width: 992px) {
-    body {
-        margin: 4em;
-    }
-}
-=======
->>>>>>> d1b2b757e9f91b5e83b8bf770ea045532f052ca5
